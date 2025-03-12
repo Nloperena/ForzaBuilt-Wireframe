@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  border: 2px dashed #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.interactive-selector select,
+.quote-tool select,
+.quote-tool input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px dashed #888;
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #ddd;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.industry-card,
+.product-card,
+.blog-card {
+  text-align: center;
+  padding: 10px;
+  border: 1px dashed #bbb;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #f2f2f2;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
+
+.logo h2 {
+  margin: 0;
+}
+/* OUR DISTINCT ADVANTAGE SECTION STYLES */
+.our-distinct-advantage {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.our-distinct-advantage h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.advantage-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.advantage-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1;
+  min-width: 280px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.advantage-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.advantage-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.advantage-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.advantage-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* CTA Button Styling (Shared with other sections) */
+.cta-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
